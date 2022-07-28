@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0px;
+}
+.hidden{
+    display: none;
+}
+li{
+    list-style: none;
+}
+#left-section{
+    width: 20%;
+}
+#weather{
+    display: flex;
+    color: white;
+    padding-left: 32px;
+    padding-top: 10px;
+}
+.weather{
+    margin-right: 20px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+#center-section{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+    color: rgb(207, 222, 238);
+    margin-bottom: 0px;
+}
+#greeting{
+    margin-top: 0px;
+    color: rgb(201, 228, 223);
+}
+.search {
+    display: flex;
+    width: 700px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: whitesmoke;
+    outline: none;
+    border-radius: 20px;
+}
+#input-search{
+    outline: none;
+    border: 0;
+    background-color: whitesmoke;
+    font-size: 20px;
+    -webkit-appearance: none;
+    text-align: center;
+}
+#right-section{
+    width: 20%;
+}
+
+#toDo-list{
+    float: right;
+    background-color: whitesmoke;
+    height: 35%;
+    width: 66%;
+    margin-right: 30px; 
+    padding: 5px;
+    padding-top: 20px;
+    border-radius: 5px;
+    box-shadow: 7px 7px gray;
+}
+#toDo-list h3{
+    text-align: center;
+    margin-top: 0px;
+}
+#toDo-list li{
+    margin: 8px;
+    font-size: 14px;
+}
+input[type="checkbox"] {
+    accent-color: grey;
+    margin-right: 13px;
+}
+.checked{
+    opacity: 0.8;
+    text-decoration: line-through;
+}
+#toDo-list button{
+    float: right;
+    margin-right: 12%;
+    border: 0;
+    width: 16px;
+    height: 16px;
+    background: url(https://cdn.iconscout.com/icon/free/png-256/delete-844-902124.png)
+        no-repeat 100% 100%;
+    background-size: contain;
+}
+.input-todo{
+    outline: none;
+    border: 0;
+    height: 25px;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    margin-bottom: 2px
+}
